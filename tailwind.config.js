@@ -6,6 +6,7 @@ module.exports = {
       'mint': '#3BBA9C',
       'mintLight': '#63EFCE',
       'darkBlue': '#2E3047',
+      'darkerBlue': '#181925',
     },
     extend: {
       fontFamily: {

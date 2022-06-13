@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import Link from './Link';
+import Links from './Links';
 
 function Navbar() {
   return (
-    <div className='flex items-center justify-between h-20'>
+    <div className='flex items-center justify-between h-20 px-8 drop-shadow-custom'>
       <a href='/'>
         <div className='flex items-center gap-2 hover:cursor-pointer'>
           <Image
@@ -16,12 +16,7 @@ function Navbar() {
           <h6 className='text-mint text-xl drop-shadow-custom'>Ioana Tiplea</h6>
         </div>
       </a>
-      <div className='hidden md:flex md:gap-8'>
-        <Link name={'About'} />
-        <Link name={'Skills'} />
-        <Link name={'Projects'} />
-        <Link name={'Contact'} />
-      </div>
+      <Links />
     </div>
   );
 }
