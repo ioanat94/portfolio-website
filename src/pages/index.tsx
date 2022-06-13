@@ -7,9 +7,10 @@ const Index = () => {
   return (
     <>
       <Head>
-        <title>Portfolio Website</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <title>Ioana Tiplea</title>
       </Head>
-      <div>Hello</div>
+      <h1 className='font-roboto'>Hello world!</h1>
     </>
   );
 };
