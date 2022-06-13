@@ -1,5 +1,7 @@
+import { Main } from 'next/document';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
+import Navbar from '../components/Navbar';
 
 const Index = () => {
   const router = useRouter();
@@ -10,7 +12,9 @@ const Index = () => {
         <meta name='viewport' content='width=device-width, initial-scale=1.0' />
         <title>Ioana Tiplea</title>
       </Head>
-      <h1 className='font-roboto'>Hello world!</h1>
+      <div className='font-roboto bg-darkBlue px-8 drop-shadow-custom'>
+        <Navbar></Navbar>
+      </div>
     </>
   );
 };
