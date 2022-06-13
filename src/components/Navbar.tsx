@@ -4,7 +4,7 @@ import Links from './Links';
 
 function Navbar() {
   return (
-    <div className='flex items-center justify-between h-20 px-8 drop-shadow-custom'>
+    <div className='flex items-center justify-between h-20 shadow-custom shadow-md px-4 md:px-8'>
       <a href='/'>
         <div className='flex items-center gap-2 hover:cursor-pointer'>
           <Image

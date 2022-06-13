@@ -4,7 +4,7 @@ function Link({ name }) {
   return (
     <a
       href={`#${name.toLowerCase()}`}
-      className='text-mint hover:text-mintLight'
+      className='text-mint transition-all hover:text-mintLight'
     >
       {name}
     </a>
