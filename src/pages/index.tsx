@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import About from '../components/About';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
+import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 
 const Index = () => {
@@ -20,6 +21,7 @@ const Index = () => {
         <div className='w-screen md:container md:mx-auto'>
           <About />
           <Skills />
+          <Projects />
         </div>
         <Footer />
       </div>

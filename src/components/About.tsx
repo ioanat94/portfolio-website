@@ -20,7 +20,7 @@ function About() {
             href='https://firebasestorage.googleapis.com/v0/b/netflix-clone-49e41.appspot.com/o/CV_Ioana_Tiplea.pdf?alt=media&token=16bb291c-a568-43d3-917e-84ebbf8441af'
             target='_blank'
             rel='noreferrer'
-            className='text-mint text-sm border-solid border-2 border-mint rounded px-2 py-1 cursor-pointer md:transition-all md:hover:text-white md:hover:border-white'
+            className='text-mint text-md border-solid border border-mint rounded px-2 py-1 cursor-pointer md:transition-all md:hover:text-white md:hover:border-white'
           >
             RESUME
           </a>
@@ -32,6 +32,7 @@ function About() {
           src='/assets/other/programming.png'
           width='500px'
           height='500px'
+          className='drop-shadow-custom'
         />
       </div>
     </div>

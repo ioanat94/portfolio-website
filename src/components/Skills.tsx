@@ -10,7 +10,7 @@ function Skills() {
       className='flex flex-col p-6 pt-0 gap-5 md:max-w-7xl md:mx-auto md:min-h-[40vh]'
     >
       <h1 className='text-mint text-4xl'>Skills</h1>
-      <div className='flex flex-col gap-10 md:flex-row md:justify-evenly md:gap-20'>
+      <div className='flex flex-col gap-10 mt-5 md:flex-row md:justify-evenly md:gap-20 md:mt-10'>
         <FrontSkills />
         <BackSkills />
         <OtherSkills />
