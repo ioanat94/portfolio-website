@@ -16,9 +16,14 @@ function About() {
         </p>
         <div className='flex justify-between items-center'>
           <Socials />
-          <span className='text-mint text-sm border-solid border-2 border-mint rounded px-2 py-1 cursor-pointer transition-all hover:text-white hover:border-white'>
+          <a
+            href='https://firebasestorage.googleapis.com/v0/b/netflix-clone-49e41.appspot.com/o/CV_Ioana_Tiplea.pdf?alt=media&token=16bb291c-a568-43d3-917e-84ebbf8441af'
+            target='_blank'
+            rel='noreferrer'
+            className='text-mint text-sm border-solid border-2 border-mint rounded px-2 py-1 cursor-pointer transition-all hover:text-white hover:border-white'
+          >
             RESUME
-          </span>
+          </a>
         </div>
       </div>
       <div className='max-w-md'>
