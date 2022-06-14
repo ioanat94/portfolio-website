@@ -9,6 +9,7 @@ function Project({ img, title, gitLink, liveLink, desc }) {
         width='300px'
         height='200px'
         className='object-cover object-top rounded-t-md'
+        alt='Project Screenshot'
       />
       <div className='flex flex-col gap-5'>
         <div className='flex items-center justify-between px-5 pt-2'>
@@ -25,6 +26,7 @@ function Project({ img, title, gitLink, liveLink, desc }) {
                 width='30px'
                 height='30px'
                 className='cursor-pointer md:transition-all md:hover:opacity-50'
+                alt='GitHub Icon'
               />
             </a>
             <a href={liveLink} target='_blank' rel='noreferrer'>

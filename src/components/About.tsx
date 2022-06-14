@@ -33,6 +33,7 @@ function About() {
           width='400px'
           height='400px'
           className='drop-shadow-custom'
+          alt='Laptop'
         />
       </div>
     </div>

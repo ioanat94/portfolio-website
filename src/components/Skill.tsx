@@ -10,6 +10,7 @@ function Skill({ url, img }) {
           width='50px'
           height='50px'
           className='rounded-full md:transition-all md:hover:opacity-50'
+          alt='Skill Icon'
         />
       </a>
     </div>

@@ -1,4 +1,3 @@
-import { Main } from 'next/document';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import About from '../components/About';

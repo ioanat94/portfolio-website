@@ -10,6 +10,7 @@ function Socials() {
           width='30px'
           height='30px'
           className='cursor-pointer md:transition-all md:hover:opacity-50'
+          alt='GitHub Logo'
         />
       </a>
       <a
@@ -22,6 +23,7 @@ function Socials() {
           width='30px'
           height='30px'
           className='cursor-pointer md:transition-all md:hover:opacity-50'
+          alt='LinkedIn Logo'
         />
       </a>
       <a href='mailto:ioanatiplea94@gmail.com'>
@@ -30,6 +32,7 @@ function Socials() {
           width='30px'
           height='30px'
           className='cursor-pointer md:transition-all md:hover:opacity-50'
+          alt='Email Logo'
         />
       </a>
     </div>
