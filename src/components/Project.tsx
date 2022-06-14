@@ -3,7 +3,7 @@ import React from 'react';
 
 function Project({ img, title, gitLink, liveLink, desc }) {
   return (
-    <div className='flex flex-col w-full gap-5 text-white font-light text-justify bg-darkerBlue rounded-md shadow-2xl md:w-[50%] lg:w-[35%]'>
+    <div className='flex flex-col w-full gap-5 text-white font-light bg-darkerBlue rounded-md shadow-2xl md:w-[50%] lg:w-[35%]'>
       <Image
         src={img}
         width='300px'
@@ -12,7 +12,7 @@ function Project({ img, title, gitLink, liveLink, desc }) {
         alt='Project Screenshot'
       />
       <div className='flex flex-col gap-5'>
-        <div className='flex items-center justify-between px-5 pt-2'>
+        <div className='flex items-center justify-between p-5 pt-2'>
           <h2 className='text-mint font-normal text-xl'>{title}</h2>
           <div className='flex items-center gap-5'>
             <a
