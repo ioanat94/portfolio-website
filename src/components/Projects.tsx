@@ -9,8 +9,9 @@ function Projects() {
     >
       <h1 className='text-mint text-4xl'>Projects</h1>
       <div className='text-white font-light '>
-        Below are some of my most recent projects. All of my work is available
-        on{' '}
+        Below is a sample of my most recent projects.
+        <br />
+        Check out the rest of my work on{' '}
         <a
           href='https://github.com/ioanat94'
           target='_blank'
