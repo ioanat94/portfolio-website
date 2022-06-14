@@ -7,7 +7,7 @@ function Skills() {
   return (
     <div
       id='skills'
-      className='flex flex-col p-6 pt-0 gap-5 md:max-w-7xl md:min-h-[40vh]'
+      className='flex flex-col p-6 pt-0 gap-5 md:max-w-7xl md:mx-auto md:min-h-[40vh]'
     >
       <h1 className='text-mint text-4xl'>Skills</h1>
       <div className='flex flex-col gap-10 md:flex-row md:justify-evenly md:gap-20'>
