@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.anchor {
+  display: block;
+  position: relative;
+  top: -90px;
+  visibility: hidden;
+}
+
 .hamburger {
   cursor: pointer;
   width: 24px;
