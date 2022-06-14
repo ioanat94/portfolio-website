@@ -7,8 +7,8 @@ function FrontSkills() {
     <>
       <div>
         <div className='flex flex-col gap-5 md:items-center'>
-          <h2 className='text-white text-xl'>Front End</h2>
-          <div className='grid grid-cols-3 gap-y-5 max-w-[75%] md:gap-x-8 md:max-w-full'>
+          <h2 className='text-white text-xl text-center'>Front End</h2>
+          <div className='grid grid-cols-3 gap-5 md:gap-x-8 md:max-w-full'>
             <Skill
               url={'https://www.javascript.com/'}
               img={'/assets/stack/front/javascript.png'}

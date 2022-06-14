@@ -6,8 +6,8 @@ function BackSkills() {
     <>
       <div>
         <div className='flex flex-col gap-5 self-start md:items-center'>
-          <h2 className='text-white text-xl'>Back End</h2>
-          <div className='grid grid-cols-3 gap-y-5 max-w-[75%] md:gap-x-8 md:max-w-full'>
+          <h2 className='text-white text-xl text-center'>Back End</h2>
+          <div className='grid grid-cols-3 gap-5 md:gap-x-8 md:max-w-full'>
             <Skill
               url={'https://nodejs.org/en/'}
               img={'/assets/stack/back/nodejs.png'}
