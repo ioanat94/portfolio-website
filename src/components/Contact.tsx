@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div
       id='projects'
-      className='flex flex-col p-6 pt-0 gap-5 mt-10 md:max-w-7xl md:mx-auto'
+      className='flex flex-col p-6 pt-0 gap-5 mt-10 md:max-w-6xl md:mx-auto'
     >
       <h1 className='text-mint text-4xl'>Contact</h1>
       <p className='text-white font-light'>

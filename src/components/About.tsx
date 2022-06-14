@@ -6,9 +6,9 @@ function About() {
   return (
     <div
       id='about'
-      className='flex flex-col p-6 pb-0 items-center md:flex-row md:items-center md:justify-between md:gap-10 md:max-w-7xl md:mx-auto md:min-h-[40vh]'
+      className='flex flex-col p-6 pb-0 items-center md:flex-row md:items-center md:justify-between md:gap-40 md:max-w-6xl md:mx-auto md:min-h-[40vh]'
     >
-      <div className='flex flex-col gap-4 md:max-w-md'>
+      <div className='flex flex-col gap-4 md:max-w-md md:mt-10'>
         <h1 className='text-mint text-4xl'>About Me</h1>
         <p className='text-white font-light text-justify'>
           I am a Full Stack Developer living in Finland. I build front-end and
@@ -30,8 +30,8 @@ function About() {
         <Image
           priority
           src='/assets/other/programming.png'
-          width='500px'
-          height='500px'
+          width='400px'
+          height='400px'
           className='drop-shadow-custom'
         />
       </div>
