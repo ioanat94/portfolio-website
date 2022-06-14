@@ -9,7 +9,7 @@ function Skill({ url, img }) {
           src={img}
           width='50px'
           height='50px'
-          className='rounded-full transition-all hover:opacity-50'
+          className='rounded-full md:transition-all md:hover:opacity-50'
         />
       </a>
     </div>

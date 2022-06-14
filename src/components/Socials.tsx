@@ -9,7 +9,7 @@ function Socials() {
           src='/assets/other/github.png'
           width='30px'
           height='30px'
-          className='cursor-pointer transition-all hover:opacity-50'
+          className='cursor-pointer md:transition-all md:hover:opacity-50'
         />
       </a>
       <a
@@ -21,7 +21,7 @@ function Socials() {
           src='/assets/other/linkedin.png'
           width='30px'
           height='30px'
-          className='cursor-pointer transition-all hover:opacity-50'
+          className='cursor-pointer md:transition-all md:hover:opacity-50'
         />
       </a>
       <a href='mailto:ioanatiplea94@gmail.com'>
@@ -29,7 +29,7 @@ function Socials() {
           src='/assets/other/email.jpg'
           width='30px'
           height='30px'
-          className='cursor-pointer transition-all hover:opacity-50'
+          className='cursor-pointer md:transition-all md:hover:opacity-50'
         />
       </a>
     </div>
