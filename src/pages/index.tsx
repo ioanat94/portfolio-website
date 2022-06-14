@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 import About from '../components/About';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
+import Skills from '../components/Skills';
 
 const Index = () => {
   const router = useRouter();
@@ -18,8 +19,8 @@ const Index = () => {
         <Navbar />
         <div className='w-screen md:container md:mx-auto'>
           <About />
+          <Skills />
         </div>
-
         <Footer />
       </div>
     </>
