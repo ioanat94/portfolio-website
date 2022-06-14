@@ -28,6 +28,7 @@ function About() {
       </div>
       <div className='max-w-md'>
         <Image
+          priority
           src='/assets/other/programming.png'
           width='500px'
           height='500px'
