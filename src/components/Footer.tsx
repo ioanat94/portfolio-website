@@ -1,5 +1,5 @@
 import React from 'react';
-import Links from './Links';
+import LinksFooter from './LinksFooter';
 
 function Footer() {
   return (
@@ -21,7 +21,7 @@ function Footer() {
         by Ioana Tiplea
       </div>
 
-      <Links />
+      <LinksFooter />
     </div>
   );
 }

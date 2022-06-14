@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import Links from './Links';
+import LinksNavbar from './LinksNavbar';
 
 function Navbar() {
   return (
@@ -16,7 +16,7 @@ function Navbar() {
           <h6 className='text-mint text-xl drop-shadow-custom'>Ioana Tiplea</h6>
         </div>
       </a>
-      <Links />
+      <LinksNavbar />
     </div>
   );
 }
