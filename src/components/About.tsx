@@ -6,7 +6,7 @@ function About() {
   return (
     <>
       <a className='anchor' id='about'></a>
-      <div className='flex flex-col p-6 pb-0 items-center md:flex-row md:items-center md:justify-between md:gap-40 md:max-w-6xl md:mx-auto md:min-h-[40vh]'>
+      <div className='flex flex-col px-6 pt-6 items-center gap-4 md:pt-0 md:flex-row md:items-end md:justify-between md:gap-20 md:max-w-6xl md:mx-auto lg:gap-40 lg:items-center'>
         <div className='flex flex-col gap-4 md:max-w-md md:mt-10'>
           <h1 className='text-mint text-4xl'>About Me</h1>
           <p className='text-white font-light text-justify'>

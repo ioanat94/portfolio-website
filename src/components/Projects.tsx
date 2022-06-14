@@ -4,8 +4,8 @@ import Project from './Project';
 function Projects() {
   return (
     <>
-      <a className='anchor' id='projects'></a>
-      <div className='flex flex-col p-6 pt-0 gap-5 md:max-w-6xl md:mx-auto md:justify-between md:min-h-[40vh] md:mt-10'>
+      <a className='anchor anchor-projects' id='projects'></a>
+      <div className='flex flex-col p-6 pt-0 gap-5 mt-10 md:max-w-6xl md:mx-auto md:justify-between'>
         <h1 className='text-mint text-4xl'>Projects</h1>
         <div className='text-white font-light '>
           Below is a sample of my most recent projects.
@@ -21,7 +21,7 @@ function Projects() {
           </a>
           .
         </div>
-        <div className='flex flex-col gap-10 justify-evenly mt-2 md:mt-10 md:flex-row md:justify-between'>
+        <div className='flex flex-col gap-10 justify-evenly mt-2 md:mt-6 md:flex-row md:justify-between'>
           <Project
             img={'/assets/projects/netflix.png'}
             title={'Netflix Clone'}

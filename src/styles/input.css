@@ -5,8 +5,28 @@
 .anchor {
   display: block;
   position: relative;
-  top: -90px;
+  top: -120px;
   visibility: hidden;
+}
+
+.anchor-projects {
+  top: -60px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .anchor-skills {
+    top: -30px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .anchor {
+    top: -90px;
+  }
+
+  .anchor-projects {
+    top: -60px;
+  }
 }
 
 .hamburger {

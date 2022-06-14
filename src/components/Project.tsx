@@ -3,7 +3,7 @@ import React from 'react';
 
 function Project({ img, title, gitLink, liveLink, desc }) {
   return (
-    <div className='flex flex-col w-full gap-5 text-white font-light text-justify bg-darkerBlue rounded-md shadow-2xl md:w-1/3'>
+    <div className='flex flex-col w-full gap-5 text-white font-light text-justify bg-darkerBlue rounded-md shadow-2xl md:w-[50%] lg:w-[35%]'>
       <Image
         src={img}
         width='300px'
