@@ -30,7 +30,7 @@ function Project({ img, title, gitLink, liveLink, desc }) {
               />
             </a>
             <a href={liveLink} target='_blank' rel='noreferrer'>
-              <span className='text-mint text-sm font-normal border-solid border border-mint rounded py-0.5 px-2 md:hover:transition-all md:hover:text-white md:hover:border-white'>
+              <span className='text-mint text-sm font-normal border-solid border border-mint rounded py-0.5 px-2 md:transition-all md:hover:text-darkBlue md:hover:bg-mint md:hover:border-darkerBlue'>
                 LIVE
               </span>
             </a>
