@@ -16,10 +16,10 @@ function About() {
           <div className='flex justify-between items-center'>
             <Socials />
             <a
-              href='https://firebasestorage.googleapis.com/v0/b/netflix-clone-49e41.appspot.com/o/CV_Ioana_Tiplea.pdf?alt=media&token=16bb291c-a568-43d3-917e-84ebbf8441af'
+              href='https://firebasestorage.googleapis.com/v0/b/netflix-clone-49e41.appspot.com/o/CV_Ioana_Tiplea.pdf?alt=media&token=5a16adda-5535-4649-8872-526b1ab12410'
               target='_blank'
               rel='noreferrer'
-              className='text-mint text-md border-solid border border-mint rounded px-2 py-1 cursor-pointer md:transition-all md:hover:text-white md:hover:border-white'
+              className='text-mint text-md border-solid border border-mint rounded px-2 py-1 cursor-pointer md:transition-all md:hover:text-darkBlue md:hover:bg-mint md:hover:border-darkBlue'
             >
               RESUME
             </a>
