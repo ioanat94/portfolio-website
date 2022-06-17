@@ -1,9 +1,12 @@
 import Image from 'next/image';
 import React from 'react';
 
-function Skill({ url, img }) {
+function Skill({ name, url, img }) {
   return (
-    <div className='flex items-center'>
+    <div className='flex flex-col items-center gap-4'>
+      <span className='text-white font-light text-center md:text-sm lg:text-base'>
+        {name}
+      </span>
       <a href={url} target='_blank' rel='noreferrer'>
         <Image
           src={img}
