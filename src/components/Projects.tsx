@@ -21,7 +21,7 @@ function Projects() {
           </a>
           .
         </div>
-        <div className='flex flex-col gap-10 justify-evenly mt-2 md:mt-6 md:flex-row md:justify-between'>
+        <div className='flex flex-col gap-10 justify-evenly mt-2 md:mt-6 md:flex-row md:flex-wrap md:justify-between lg:flex-nowrap'>
           <Project
             img={'/assets/projects/netflix.png'}
             title={'Netflix Clone'}
@@ -32,10 +32,19 @@ function Projects() {
             }
           />
           <Project
+            img={'/assets/projects/burgrrr.png'}
+            title={'burGRRR'}
+            gitLink={'https://github.com/ioanat94/burgrrr'}
+            liveLink={'https://burgrrr.vercel.app/'}
+            desc={
+              'A landing page/food ordering app for a fictional burger restaurant written using Typescript, React.js, Next.js, MongoDB and Tailwind CSS. Users are able to select products they want to order, various options for their order, and checkout using Paypal or cash. Also features an admin dashboard which allows admins to view, create, modify and delete products and orders.'
+            }
+          />
+          <Project
             img={'/assets/projects/portfolio.png'}
             title={'Portfolio Website'}
             gitLink={'https://github.com/ioanat94/portfolio-website'}
-            liveLink={'https://www.google.com/'}
+            liveLink={'https://www.ioanatiplea.dev/'}
             desc={
               'My portfolio website, which you are looking at right now. The design was intended to be simple, clean and straightforward. Built with Tailwind CSS, Typescript and React.js/Next.js.'
             }
