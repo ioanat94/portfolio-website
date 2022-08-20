@@ -19,6 +19,7 @@ function Links() {
           <Link name={'Skills'} />
           <Link name={'Projects'} />
           <Link name={'Contact'} />
+          <Link name={'Blog'} />
         </div>
         <button
           id='menu-btn'

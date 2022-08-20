@@ -11,7 +11,11 @@ function Link({ name }) {
 
   return (
     <a
-      href={`#${name.toLowerCase()}`}
+      href={
+        name === 'Blog'
+          ? 'https://blog.ioanatiplea.dev'
+          : `#${name.toLowerCase()}`
+      }
       className='text-mint md:transition-all md:hover:text-mintLight'
       onClick={toggleMenu}
     >
