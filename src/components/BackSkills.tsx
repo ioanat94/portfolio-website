@@ -9,12 +9,12 @@ function BackSkills() {
           <h2 className='text-white text-xl text-center'>Back End</h2>
           <div className='grid grid-cols-3 gap-x-10 gap-y-8 md:gap-x-8 items-end md:gap-y-6 md:max-w-full'>
             <Skill
-              name='Node.js'
+              name='Node'
               url={'https://nodejs.org/en/'}
               img={'/assets/stack/back/nodejs.png'}
             />
             <Skill
-              name='Express.js'
+              name='Express'
               url={'https://expressjs.com/'}
               img={'/assets/stack/back/expressjs.png'}
             />
