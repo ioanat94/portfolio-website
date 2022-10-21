@@ -19,6 +19,11 @@ function BackSkills() {
               img={'/assets/stack/back/expressjs.png'}
             />
             <Skill
+              name='PostgreSQL'
+              url={'https://www.postgresql.org/'}
+              img={'/assets/stack/back/postgresql.png'}
+            />
+            <Skill
               name='MongoDB'
               url={'https://www.mongodb.com/'}
               img={'/assets/stack/back/mongodb.webp'}
