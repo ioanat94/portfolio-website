@@ -19,6 +19,16 @@ function BackSkills() {
               img={'/assets/stack/back/expressjs.png'}
             />
             <Skill
+              name='Java'
+              url={'https://www.java.com/en/'}
+              img={'/assets/stack/back/java.svg'}
+            />
+            <Skill
+              name='Spring'
+              url={'https://spring.io/'}
+              img={'/assets/stack/back/spring.svg'}
+            />
+            <Skill
               name='PostgreSQL'
               url={'https://www.postgresql.org/'}
               img={'/assets/stack/back/postgresql.png'}
