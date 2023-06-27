@@ -37,6 +37,11 @@ function BackSkills() {
             url={'https://www.mongodb.com/'}
             img={'/assets/stack/back/mongodb.webp'}
           />
+          <Skill
+            name='Prisma'
+            url={'https://www.prisma.io/'}
+            img={'/assets/stack/back/prisma.svg'}
+          />
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ function Projects() {
       <div className='flex flex-col p-6 pt-0 gap-5 mt-10 md:max-w-6xl md:mx-auto md:justify-between'>
         <h1 className='text-mint text-4xl'>Projects</h1>
         <div className='text-white font-light '>
-          Below is a sample of my most recent projects.
+          Below are some of my pet projects.
           <br />
           Check out the rest of my work on{' '}
           <a
@@ -44,7 +44,6 @@ function Projects() {
             img={'/assets/projects/netflix.png'}
             title={'Netflix Clone'}
             gitLink={'https://github.com/ioanat94/netflix'}
-            liveLink={'https://netflix-clone-it.herokuapp.com/'}
             desc={
               'Netflix clone written using the MERN stack. Features a client side which allows users to register, login, browse and watch content categorized by type (movie or series) and genre. Also features an admin dashboard which is a fully functional CMS that allows admins to view, create, modify and delete users, content and content lists.'
             }

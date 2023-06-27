@@ -28,16 +28,6 @@ function FrontSkills() {
             img={'/assets/stack/front/css.webp'}
           />
           <Skill
-            name='Sass'
-            url={'https://sass-lang.com/'}
-            img={'/assets/stack/front/sass.png'}
-          />
-          <Skill
-            name='MUI'
-            url={'https://mui.com/'}
-            img={'/assets/stack/front/materialui.png'}
-          />
-          <Skill
             name='Tailwind'
             url={'https://tailwindcss.com/'}
             img={'/assets/stack/front/tailwindcss.png'}
