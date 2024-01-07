@@ -16,7 +16,7 @@ function About() {
           <div className='flex justify-between items-center'>
             <Socials />
             <a
-              href='https://firebasestorage.googleapis.com/v0/b/netflix-clone-49e41.appspot.com/o/Ioana_Tiplea_CV_060124.pdf?alt=media&token=c11e6bb0-502b-470b-9715-d9f81763dac8'
+              href='https://firebasestorage.googleapis.com/v0/b/netflix-clone-49e41.appspot.com/o/Ioana_Tiplea_CV_070124.pdf?alt=media&token=ccba3010-17f7-4a4a-8e3d-b881f8fea25a'
               target='_blank'
               rel='noreferrer'
               className='text-mint text-md border-solid border border-mint rounded px-2 py-1 cursor-pointer md:transition-all md:hover:text-darkBlue md:hover:bg-mint md:hover:border-darkBlue'
